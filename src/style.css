@@ -1,3 +1,26 @@
 body {
     background-color: coral;
 }
+
+.home-page {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.menu-section {
+    margin-top: 20px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.item-name {
+    font-weight: bold;
+}
+
+.item-price {
+    color: grey;
+}
