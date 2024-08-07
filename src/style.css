@@ -2,7 +2,69 @@ body {
     background-color: coral;
 }
 
+
+
+
+
+
+
+
 .home-page {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.featured-dish-section,
+.testimonials-section,
+.contact-section {
+    margin-top: 20px;
+}
+
+.testimonial {
+    margin: 10px 0;
+}
+
+.testimonial-name {
+    font-weight: bold;
+}
+
+.testimonial-comment {
+    margin: 5px 0 10px 20px;
+    font-style: italic;
+}
+
+
+
+
+.about-page {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.history-section,
+.mission-section,
+.team-section {
+    margin-top: 20px;
+}
+
+.team-member {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.member-name {
+    font-weight: bold;
+}
+
+.member-role {
+    color: grey;
+}
+
+
+
+
+.menu-page {
     font-family: Arial, sans-serif;
     margin: 20px;
 }

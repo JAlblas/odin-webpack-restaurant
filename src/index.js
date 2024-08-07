@@ -1,17 +1,37 @@
-import { generateAbout } from './generateAbout';
 import { generateHome } from './generateHome';
 import { generateMenu } from './generateMenu';
+import { generateAbout } from './generateAbout';
 
 import './style.css';
 
-console.log("Webpack test!!");
 
 const main = document.querySelector('#main');
 
-document.addEventListener('DOMContentLoaded', () => {
+const mainButton = document.querySelector("#home-button");
+mainButton.addEventListener("click", () => {
+    clearMain();
     const homePage = generateHome();
-    document.body.appendChild(homePage);
-});
+    main.appendChild(homePage);
+})
+
+const menuButton = document.querySelector("#menu-button");
+menuButton.addEventListener("click", () => {
+    clearMain();
+    const menuPage = generateMenu();
+    main.appendChild(menuPage);
+})
+
+const aboutButton = document.querySelector("#about-button");
+aboutButton.addEventListener("click", () => {
+    clearMain();
+    const aboutPage = generateAbout();
+    main.appendChild(aboutPage);
+})
+
+const clearMain = () => {
+    main.innerHTML = "";
+}
+
 
 //main.appendChild(generateHome());
 //main.appendChild(generateMenu());
