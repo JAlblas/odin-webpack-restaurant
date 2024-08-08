@@ -4,28 +4,24 @@
 
 body {
     font-family: Arial, sans-serif;
-    height: 100vh;
     color: #FFF;
-}
-
-body {
     margin: 0 auto;
+    min-height: 100vh;
 }
 
 
 #container {
     width: 1200px;
-    height: 100%;
+    min-height: 100vh;
     margin: 0 auto;
     background-color: var(--theme-color);
-    padding: 0 50px;
+    padding: 25px 50px;
     display: flex;
     flex-direction: column;
-
 }
 
 header {
-    flex: 1;
+    flex-basis: 150px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

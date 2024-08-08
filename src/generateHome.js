@@ -1,5 +1,7 @@
 // homePageModule.js
 
+import Restaurant from './restaurant.jpg'
+
 const generateHome = () => {
     let div = document.createElement('div');
     div.className = 'page';
@@ -8,6 +10,11 @@ const generateHome = () => {
     let restaurantName = document.createElement('h1');
     restaurantName.textContent = 'Gourmet Delights';
     div.appendChild(restaurantName);
+
+    const restaurant = new Image();
+    restaurant.src = Restaurant;
+
+    div.appendChild(restaurant);
 
     // Welcome message
     let welcomeMessage = document.createElement('p');
