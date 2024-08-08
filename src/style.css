@@ -1,17 +1,58 @@
+:root {
+    --theme-color: rgb(40, 74, 156);
+}
+
 body {
-    background-color: coral;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    color: #FFF;
+}
+
+body {
+    margin: 0 auto;
 }
 
 
+#container {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: var(--theme-color);
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
 
+}
 
+header {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #FFF;
+}
 
+#main {
+    flex: 6;
+}
 
+h2 {
+    margin: 0;
+}
 
+nav {
+    display: flex;
+    gap: 20px;
 
-.home-page {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+}
+
+button {
+    border: 0;
+    background-color: #FFF;
+    padding: 10px 25px;
+    color: var(--theme-color);
+    font-weight: bold;
 }
 
 .featured-dish-section,
@@ -36,10 +77,6 @@ body {
 
 
 
-.about-page {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-}
 
 .history-section,
 .mission-section,
@@ -58,16 +95,13 @@ body {
 }
 
 .member-role {
-    color: grey;
+    color: #6f5531c5;
 }
 
 
 
 
-.menu-page {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-}
+
 
 .menu-section {
     margin-top: 20px;
@@ -84,5 +118,5 @@ body {
 }
 
 .item-price {
-    color: grey;
+    color: #6f5531c5;
 }

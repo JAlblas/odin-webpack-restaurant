@@ -1,7 +1,7 @@
 
 const generateAbout = () => {
     let div = document.createElement('div');
-    div.className = 'about-page';
+    div.className = 'page';
 
     // About Us title
     let aboutTitle = document.createElement('h1');

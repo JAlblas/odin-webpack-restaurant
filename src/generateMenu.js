@@ -1,6 +1,6 @@
 const generateMenu = () => {
     let div = document.createElement('div');
-    div.className = 'menu-page';
+    div.className = 'page';
 
     // Menu title
     let menuTitle = document.createElement('h1');

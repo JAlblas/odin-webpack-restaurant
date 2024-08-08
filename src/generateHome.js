@@ -2,7 +2,7 @@
 
 const generateHome = () => {
     let div = document.createElement('div');
-    div.className = 'home-page';
+    div.className = 'page';
 
     // Restaurant name
     let restaurantName = document.createElement('h1');

@@ -4,7 +4,6 @@ import { generateAbout } from './generateAbout';
 
 import './style.css';
 
-
 const main = document.querySelector('#main');
 
 const mainButton = document.querySelector("#home-button");
@@ -32,6 +31,5 @@ const clearMain = () => {
     main.innerHTML = "";
 }
 
-
-//main.appendChild(generateHome());
-//main.appendChild(generateMenu());
+const homePage = generateHome();
+main.appendChild(homePage);
