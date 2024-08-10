@@ -91,7 +91,7 @@ button {
 }
 
 .member-role {
-    color: #6f5531c5;
+    color: hsla(0, 0%, 90%, 0.773);
 }
 
 
@@ -114,5 +114,5 @@ button {
 }
 
 .item-price {
-    color: #6f5531c5;
+    color: hsla(0, 0%, 90%, 0.773);
 }
