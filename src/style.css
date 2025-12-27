@@ -1,118 +1,128 @@
 :root {
-    --theme-color: rgb(40, 74, 156);
+  --theme-color: rgb(40, 74, 156);
 }
 
 body {
-    font-family: Arial, sans-serif;
-    color: #FFF;
-    margin: 0 auto;
-    min-height: 100vh;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #efefef;
 }
 
-
 #container {
-    width: 1200px;
-    min-height: 100vh;
-    margin: 0 auto;
-    background-color: var(--theme-color);
-    padding: 25px 50px;
-    display: flex;
-    flex-direction: column;
+  min-height: 100vh;
+  width: 1600px;
+  margin: 0 auto;
+  background-color: var(--theme-color);
+  display: flex;
+  flex-direction: column;
 }
 
 header {
-    flex-basis: 150px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #FFF;
+  flex-basis: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+  background-color: #0f1f84;
 }
 
 #main {
-    flex: 6;
+  flex: 6;
+  padding: 50px;
 }
 
 h2 {
-    margin: 0;
+  margin: 0;
 }
 
 nav {
-    display: flex;
-    gap: 20px;
-
+  display: flex;
+  gap: 20px;
 }
 
 button {
-    border: 0;
-    background-color: #FFF;
-    padding: 10px 25px;
-    color: var(--theme-color);
-    font-weight: bold;
+  border: 0;
+  background-color: #fff;
+  padding: 10px 25px;
+  color: var(--theme-color);
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .featured-dish-section,
 .testimonials-section,
 .contact-section {
-    margin-top: 20px;
+  margin: 50px 0px;
+  border: 1px solid #fff;
+  padding: 25px;
 }
 
 .testimonial {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .testimonial-name {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .testimonial-comment {
-    margin: 5px 0 10px 20px;
-    font-style: italic;
+  margin: 5px 0 10px 20px;
+  font-style: italic;
 }
 
-
-
-
+.contact-section {
+}
 
 .history-section,
 .mission-section,
 .team-section {
-    margin-top: 20px;
+  margin-top: 20px;
+  padding: 25px;
+  border: 1px solid #fff;
 }
 
 .team-member {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  gap: 50px;
 }
 
 .member-name {
-    font-weight: bold;
+  font-weight: bold;
+  flex-basis: 200px;
+  flex: 1;
+}
+
+.member-img {
+  max-width: 300px;
 }
 
 .member-role {
-    color: hsla(0, 0%, 90%, 0.773);
+  color: hsla(0, 0%, 90%, 0.773);
+  flex-basis: 200px;
 }
 
-
-
-
-
-
 .menu-section {
-    margin-top: 20px;
+  margin: 40px 100px;
+  border: 1px solid #fff;
+  padding: 25px;
 }
 
 .menu-item {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
 }
 
 .item-name {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .item-price {
-    color: hsla(0, 0%, 90%, 0.773);
+  color: hsla(0, 9%, 94%, 0.821);
+  font-weight: bold;
 }
